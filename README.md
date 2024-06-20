@@ -42,20 +42,6 @@ model.summary()
 
 Bu kod bloğu modelin özetini verecek ve katmanların detaylarını (katman türleri, çıkış şekilleri, parametre sayıları) listeleyecektir. Örneğin:
 
-## Model: "sequential"
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-dense (Dense)                (None, 1000)              1000*x + 1000
-_________________________________________________________________
-dense_1 (Dense)              (None, 500)               500*1000 + 500
-_________________________________________________________________
-dense_2 (Dense)              (None, y.shape[1])        y.shape[1]*500 + y.shape[1]
-=================================================================
-Total params: ... (toplam parametre sayısı)
-Trainable params: ... (eğitilebilir parametre sayısı)
-Non-trainable params: 0 (eğitilemez parametre sayısı)
-_________________________________________________________________
 
 # Modelin eğitimi sonrasında elde edilen değerler şunlardır:
 
