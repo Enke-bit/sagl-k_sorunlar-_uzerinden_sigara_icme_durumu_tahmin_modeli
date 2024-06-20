@@ -42,7 +42,7 @@ model.summary()
 
 Bu kod bloğu modelin özetini verecek ve katmanların detaylarını (katman türleri, çıkış şekilleri, parametre sayıları) listeleyecektir. Örneğin:
 
-# Model: "sequential"
+## Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
